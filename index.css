@@ -1,7 +1,10 @@
 body{width:1280px;height:1020px;background-image:url(background1.jpg);background-repeat:no-repeat;background-color:black;text-decoration:none;}                                                    
 
-.hlavni_cast{position:relative;width:700px;height:618px;margin-left:6%;margin-top:40px;}
+.hlavni_cast{position:relative;width:700px;height:618px;margin-left:6%;margin-top:130px;}
 .informacni_centrum{position:relative;width:212px;height:618px;margin-top:-618px;margin-left:846px;}
+
+.horni_pruh{position:absolute;border:1px red solid;width:1280px;height:50px;margin-top:-120px;}
+.horni_pruh p{color:white;text-align:center;font-family:arial;font-size:30pt;margin:0px;}
 
 .uvodni_nadpis{text-align:center;background-color:yellow;border-radius:30px 30px 30px 30px;}
 .uvodni_nadpis{transition:background 2s;}
@@ -58,13 +61,14 @@ body{width:1280px;height:1020px;background-image:url(background1.jpg);background
 #prave_info{text-align:right;margin:0px;color:white;}
 
 
-
 /*------------------------------------------------------------------------------*/
+
+/*.test2{position:absolute;width:100px;height:100px;margin-left:1430px;margin-top:80px;}
+#button1{position:absolute;width:100px;height:100px;margin-left:0px;margin-top:0px;}*/
 
 /*.informacni_centrum{position:static;width:212px;height:686px;margin-top:-726.5px;margin-left:846px;border:1px red solid*/
 
 /*#text_mapa_stranky{background-color:#FFD700;font-weight:bold;font-size:15pt;font-family:arial;padding-left:5px;padding-right:5px;padding-top:5px;padding-bottom:5px;}*/
-
 
 /*.uvodni_nadpis a:link{text-decoration:none;color:black;}
 .uvodni_nadpis a:visited{text-decoration:none;color:black;}
