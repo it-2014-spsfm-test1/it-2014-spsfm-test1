@@ -1,0 +1,2 @@
+http://jecas.cz/transition
+http://www.w3.org/TR/css3-transitions/#properties-from-css-
