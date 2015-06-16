@@ -1,6 +1,6 @@
-body{width:1280px;height:1020px;background-image:url(background1.jpg);background-repeat:no-repeat;background-color:black;text-decoration:none;}                                                    
+body{width:1280px;height:1020px;background-image:url(background1.jpg);background-repeat:no-repeat;background-color:black;text-decoration:none;overflow:hidden;}                                                    
 
-.hlavni_cast{position:relative;width:700px;height:618px;margin-left:6%;margin-top:130px;}
+.hlavni_cast{position:relative;width:700px;height:618px;margin-left:78px;margin-top:130px;}
 .informacni_centrum{position:relative;width:212px;height:618px;margin-top:-618px;margin-left:846px;}
 
 .horni_pruh{position:absolute;border:1px red solid;width:980px;height:50px;margin-top:-120px;margin-left:78px;}
@@ -40,8 +40,12 @@ body{width:1280px;height:1020px;background-image:url(background1.jpg);background
 #text_e_strava{font-family:arial;text-align:center;font-weight:bold;color:white;}                                                                                                        
 
 .tridni_album_nadpis{margin-top:-400px;font-family:arial;font-weight:bold;color:white;} 
-.tridni_album{position:relative;margin-top:162px;white-space:nowrap;overflow:scroll;width:700px;}              
-.tridni_album img{display:inline;}                           
+.tridni_album{position:relative;margin-top:162px;white-space:nowrap;overflow:auto;width:700px;border-radius:30px 30px 0px 0px;}              
+.tridni_album img{display:inline;} 
+.img1{border-radius:30px 30px 30px 30px;}
+.img2{border-radius:30px 30px 30px 30px;}
+.img3{border-radius:30px 30px 30px 30px;}
+.img4{border-radius:30px 30px 30px 30px;}                          
 
 #p_nadpis_informace{margin:0px;text-align:center;background-color:yellow;font-weight:bold;font-size:20pt;font-family:arial;padding-top:10px;padding-bottom:10px;border-radius:30px 30px 30px 30px;}
 #p_nadpis_informace{transition:background 2s;}
@@ -64,7 +68,7 @@ body{width:1280px;height:1020px;background-image:url(background1.jpg);background
 /*------------------------------------------------------------------------------*/
 
 /*.test2{position:absolute;width:100px;height:100px;margin-left:1430px;margin-top:80px;}
-#button1{position:absolute;width:100px;height:100px;margin-left:0px;margin-top:0px;}*/
+#button1{position:absolute;width:100px;height:100px;margin-left:0px;margin-top:-90px;}*/
 
 /*.informacni_centrum{position:static;width:212px;height:686px;margin-top:-726.5px;margin-left:846px;border:1px red solid*/
 
